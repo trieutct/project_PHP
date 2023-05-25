@@ -1,0 +1,81 @@
+.header .admin{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+}
+.header a:nth-child(1){
+    width: 35%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.header a:nth-child(2){
+    width: 48%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+.header i{
+    color: rgba(255, 255, 255, 0.5);
+}
+.header .user{
+    margin-left: 20px;
+    position: relative;
+}
+.header .user a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .user i{
+    margin: 4px;
+    font-size: 15px;
+}
+.header .user .modul ul{
+    list-style: none;
+    width: 116px;
+    position: absolute;
+    background-color: white;
+    top: 42px;
+    right: 5px;
+    border-radius: 2px;
+    z-index: 1;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0px 0px 10px #212529;
+    display: none;
+}
+.header .user .modul a{
+    color: black;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+}
+.header .user .modul li{
+    padding: 4px;
+    height: 50%;
+}
+.header .user .modul li:nth-child(1){
+    border-bottom: 1px solid #BDBDBD;
+}
+.header .user .modul li:nth-child(2){
+    border-bottom: 1px solid #BDBDBD;
+}
+.header .user .modul li:hover{
+    color: #1e2125;
+    background-color: #F2F2F2;
+}

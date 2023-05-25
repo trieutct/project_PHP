@@ -1,0 +1,37 @@
+.sidebar .sidebar-left{
+    width: 15%;
+    background-color: #212529;
+    transition: 0.4s;
+}
+ .sidebar-left .left_core{
+     width: 100%;
+ }  
+ .sidebar-left .left_core p{
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #FFFFFF80;
+     padding: 10px;
+ }
+ .sidebar-left ul{
+     list-style: none;
+ }
+ .sidebar-left ul li a{
+     text-decoration: none;   
+     color: #FFFFFF80; 
+     font-size: 15px;
+     width: 100%;
+     display: block;
+ }
+ .sidebar-left ul li a i{
+     text-decoration: none;   
+     color: #FFFFFF80; 
+     font-size: 15px;
+     width: 20%;
+     padding: 10px;
+ }
+ .sidebar-left ul li a:hover{
+     color: white;
+     transition: .4s;
+     margin-left: 10px;
+ }

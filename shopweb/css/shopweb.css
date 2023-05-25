@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+}
+/* #header{
+    background: rgb(192,192,192);
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top:0;
+    z-index:1;
+}
+#header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+#menu{
+    list-style: none;
+    display: flex;
+     
+}
+#menu .item{
+    margin: 0 25px;
+
+}
+#menu .item a{
+    color: #626A67;
+    text-decoration: none;
+}
+#search{
+    width:30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 1px ;
+    overflow: hidden;
+}
+.form_search{
+    width: 100%;
+}
+.form_search form{
+    display: flex;
+    justify-content: space-between;
+}
+.form_search form input{
+    width: 90%;
+    height: 30px;
+    border: none;
+    margin-left: 2px;
+}
+.form_search form input:focus{
+    outline: none;
+}
+.form_search form button{
+    width: 15%;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 2px;
+}
+.form_search form button i{
+    color: #626A67;
+}
+#actions{
+    display: flex;
+
+}
+#actions .item{
+    margin-left: 22px;
+    position: relative;
+}
+#actions .item a i{
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+}
+#actions .item ul{
+    list-style: none;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    width: 110px;
+    box-shadow: 0px 0px 20px #fff;
+    top:40px;
+    right: -6px;
+    display: none;
+    border-radius: 1px;
+}
+#actions .item ul::before{
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: -23px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+#actions .item ul li a{
+    font-size: 15px;
+    color: black;
+}
+#actions .item ul li:nth-child(1),#actions .item ul li:nth-child(2)
+{
+    border-bottom: 1px solid #ccc;
+}
+#actions .item ul li{
+    height: 30px;
+    transition: 0.4s;
+    margin:5px;
+}
+#actions .item ul li:hover{
+    margin-left: 8px;
+}
+#actions .item a i:nth-child(1):hover   .item ul{
+    color: red;
+    display: block;
+}
+
+
+#banner{
+    width: 100%;
+    background-image: url("../img/aophong.jpg");
+    background-size: 100%;
+    height: 463px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+    margin-top: 80px;
+}
+#banner .box-left ,#banner .box-right{
+    width: 50%;
+}
+#banner .box-left h2{
+    font-size: 48px;
+    margin-top: 75px;
+    color: #fff;
+
+}
+#banner .box-left p{
+    color: #D0D0D0;
+
+}
+#banner .box-left button{
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;    
+    background: #1d1a1a;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+#banner .box-left button:hover{
+    background:orange;
+}
+#banner .box-right img{
+    width: 100px;
+    height: 360px;
+    border-radius: 20px;
+    margin:0px 10px;
+    animation: animation 3s infinite linear;
+}
+#banner .box-right{
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .box-right img:nth-child(1){
+    animation-delay:.5s ;
+}
+#banner .box-right img:nth-child(2){
+    animation-delay:1s ;
+    height: 400px;
+}
+#banner .box-right img:nth-child(3){
+    animation-delay:1.5s ;
+}
+@keyframes animation{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+#banner .to-botton{
+    width: 60px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(39 33 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -25px;
+    left:50%;
+    transform: translateX(-50%);
+}
+#banner .to-botton i{
+    color:#fff;
+    font-size: 30px;
+}
+.fa-star{
+    color: rgb(234 230 12);
+    margin: 5px;
+} */
+
+
+#wp-products{
+    background: #f5f5f5;
+    padding: 30px;
+} 
+#wp-products h2{
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color: #626a67;
+} 
+#list-products {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#list-products .item{
+    width: 250px;
+    height: 370px;
+    background: #362f2f;
+    border-radius: 10px;
+    margin-bottom:  50px;
+    background: white;
+}
+#list-products .item a{
+    text-decoration: none;
+}
+#list-products .item img{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    height: 38%;
+}
+#list-products .item .stars{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#list-products .item .name{
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#list-products .item .desc{
+    text-align: center;
+    color:rgba(0,0,0,.87);  
+    overflow: hidden;
+    width: 100%;
+    height: 19%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+#list-products .item .price{
+    text-align: center;
+    color:#f42424;  
+    font-weight: bold;
+    margin-top: 35px;
+}
+#list-products .item .price span{
+    letter-spacing: 1.5px;
+}
+.list-page{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-page a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    width: 37px;
+    height: 37px;
+    background: #362f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#saleoff {
+    width: 100%;
+    display: flex;
+    height: 322px;
+
+}
+#saleoff .box-left{
+    width: 50%;
+    background: #3e413e;
+    text-align: center;
+    min-height: 322px;
+}
+#saleoff .box-left h1{
+    padding-top: 38px;
+}
+#saleoff .box-left span:nth-child(1){
+    color:#fff;
+    font-size: 50px;
+
+}
+#saleoff .box-left span:nth-child(2){
+    color:orange;
+    font-size: 128px;
+    
+}
+#saleoff .box-right{
+    width: 50%;
+    background-position: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url("https://file.vfo.vn/hinh/2016/08/hinh-anh-mon-ngon-pizza-2.jpg");
+}
+
+
+
+
+
+#comment{
+    width: 1012px;
+    height: 478px;
+    margin: 0 auto;
+    margin-top: 184px;
+    margin-bottom: 54px;
+
+}
+#comment h2{
+    font-size: 32px;
+    color: #626a67;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+#comment-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    list-style: none;
+    overflow: hidden;
+}
+#list-comment .item .avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#list-comment .item{
+    width: 100%;
+    height: 100%;
+    background: #362f2f;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+#list-comment .item .avatar{
+    text-align: center;
+    margin-top: 13px;
+    transition: 0.4s;
+}
+#list-comment{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    transition: 0.5s;
+}
+#list-comment .item .stars{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+}
+#list-comment .item .name{
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    
+}
+#list-comment .item .text{
+    padding: 20px 50px;
+    color:#fff;
+    justify-content: center;
+}
+.prev i,.next i{
+    margin: 10px;
+    font-size: 50px;
+    color: #999;
+}
+
+
+
+
+
+
+/* #footer{
+    width: 100%;
+    background: rgb(0, 0,0,0.79);
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 47px;
+    display: flex;
+    justify-content: space-around;
+}
+#footer .box{
+    width: 250px;
+    color: #fff;
+}
+#footer .box .quick-menu, .item a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer .box .quick-menu{
+    margin-top: 50px;
+}
+#footer .box .item{
+    margin-bottom: 12px;
+}
+#footer .box form input{
+    border: 2px solid #fff;
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+}
+#footer .box form button{
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+#footer .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */

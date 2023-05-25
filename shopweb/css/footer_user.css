@@ -1,0 +1,47 @@
+#footer{
+    width: 100%;
+    background: rgb(0, 0,0,0.79);
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 47px;
+    display: flex;
+    justify-content: space-around;
+}
+#footer .box{
+    width: 250px;
+    color: #fff;
+}
+#footer .box .quick-menu, .item a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer .box .quick-menu{
+    margin-top: 50px;
+}
+#footer .box .item{
+    margin-bottom: 12px;
+}
+#footer .box form input{
+    border: 2px solid #fff;
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+}
+#footer .box form button{
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+#footer .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="../css/edit_acount.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <a href="">Admin</a>
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+            <form action="">
+                <input type="text" placeholder="Tìm kiếm">
+                <input type="submit" value="Tìm kiếm">
+            </form>
+            <div class="user">
+                <a href=""><i class="fa-solid fa-user"></i><i class="fa-solid fa-sort-down"></i></a>
+                <div class="modul">
+                    <ul>
+                        <li><a href="">Đổi mật khẩu</a></li>
+                        <li><a href="">Đăng xuất</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sidebar">
+            <div class="sidebar-left">
+                <div class="left_core">
+                    <p>CORE</p>
+                </div>
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-bell"></i>Thông báo</a></li>
+                    <li><a href=""><i class="fa-solid fa-users"></i>Tài khoản users</a></li>
+                    <li><a href=""><i class="fa-solid fa-calendar-days"></i>Báo cáo</a></li>
+                    <li><a href=""><i class="fa-solid fa-right-from-bracket"></i>Đăng xuất</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-right">
+                <form action="#" method="Post">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">Tài Khoản</label>
+                      </div>
+                      <div class="col-75">
+                        <input class="input_text" type="text" id="fname" name="firstname" value="Triệu" >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Mật Khẩu</label>
+                      </div>
+                      <div class="col-75">
+                        <input class="input_text" value="trieu" type="password" id="lname" value="Triệu" name="lastname" me..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Permission</label>
+                      </div>
+                      <div class="col-75">
+                        <!-- <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select> -->
+                        <input type="radio" name="Permission" id=""> User
+                        <input type="radio" name="Permission" id=""> Admin
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="fname">Số Điện Thoại</label>
+                        </div>
+                        <div class="col-75">
+                          <input class="input_text" type="text" id="fname" name="firstname" value="Triệu">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="fname">Địa Chỉ</label>
+                        </div>
+                        <div class="col-75">
+                          <input class="input_text" type="text" id="fname" name="firstname" value="Triệu">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="fname">Time</label>
+                        </div>
+                        <div class="col-75">
+                          <input class="input_text" type="text" id="fname" name="firstname" value="Triệu">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <input class="submit" type="submit" value="Duyệt">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/taikhoancanduyet.js"></script>
+</body>
+</html>
